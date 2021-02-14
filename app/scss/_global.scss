@@ -6,6 +6,10 @@ html {
 *::after {
     box-sizing: inherit;
 }
+html,
+body {
+    height: 100%;
+}
 a {
     display: inline-block;
     text-decoration: none;
@@ -23,6 +27,7 @@ body {
     font-size: 15px;
     line-height: 24px;
     color: $text;
+    overflow-x: hidden;
 }
 .wrapper {
     display: flex;
